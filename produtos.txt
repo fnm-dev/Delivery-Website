@@ -1069,3 +1069,21 @@
 -Qtd:
 -Tipo de pedido:
 
+****Guia de pedidos****
+
+-Nº pedido: 1967907078
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 21835889
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
