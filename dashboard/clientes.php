@@ -313,6 +313,12 @@ include 'conexao.php';
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="clientes.php">
+              <i class="icon-head menu-icon"></i>
+              <span class="menu-title">Clientes</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">UI Elements</span>
@@ -382,8 +388,8 @@ include 'conexao.php';
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/register.html"> Register </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
               </ul>
             </div>
           </li>
@@ -395,290 +401,107 @@ include 'conexao.php';
             </a>
             <div class="collapse" id="error">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/error-404.html"> 404 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/error-500.html"> 500 </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../pages/documentation/documentation.html">
+            <a class="nav-link" href="pages/documentation/documentation.html">
               <i class="icon-paper menu-icon"></i>
               <span class="menu-title">Documentation</span>
             </a>
           </li>
         </ul>
       </nav>
-      <div class="col-lg-12 stretch-card">
+      <div class="col-lg-12 grid-margin stretch-card">
         <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Estoque</h4>
-            <p class="card-description">
-              Gestão de estoque <description>(cadastre, exclua ou atualize as informações)</description>
-            </p>
-            <a href="edita.php?acao=Incluir"><b>Cadastrar</b></a>
-            <div class="table-responsive pt-3">
-            <div class="col-lg-12 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Striped Table</h4>
-                  <p class="card-description">
-                    Add class <code>.table-striped</code>
-                  </p>
-                  <div class="table-responsive">
+            <div class="card-body">
+                <h4 class="card-title">Clientes</h4>
+                <p class="card-description">
+                    <code>Lista de Clientes</code>
+                </p>
+                <div class="table-responsive">
                     <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th>
-                            User
-                          </th>
-                          <th>
-                            First name
-                          </th>
-                          <th>
-                            Progress
-                          </th>
-                          <th>
-                            Amount
-                          </th>
-                          <th>
-                            Deadline
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face1.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Herman Beck
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $ 77.99
-                          </td>
-                          <td>
-                            May 15, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face2.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Messsy Adam
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $245.30
-                          </td>
-                          <td>
-                            July 1, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face3.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            John Richards
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $138.00
-                          </td>
-                          <td>
-                            Apr 12, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face4.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Peter Meggik
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $ 77.99
-                          </td>
-                          <td>
-                            May 15, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face5.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Edward
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $ 160.25
-                          </td>
-                          <td>
-                            May 03, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face6.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            John Doe
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $ 123.21
-                          </td>
-                          <td>
-                            April 05, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face7.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Henry Tom
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $ 150.00
-                          </td>
-                          <td>
-                            June 16, 2015
-                          </td>
-                        </tr>
-                      </tbody>
+                        <thead>
+                            <tr>
+                                <th>
+                                    ID
+                                </th>
+                                <th>
+                                    Nome
+                                </th>
+                                <th>
+                                    Endereço
+                                </th>
+                                <th>
+                                    Telefone
+                                </th>
+                            </tr>
+                        </thead>
+                        <?php
+                        // Fazendo uma consulta SQL
+                            $sql = "SELECT * 
+                                    FROM cliente 
+                                    ORDER BY nome";
+                            $tabela = mysqli_query($conexao, $sql);
+                            while ($linha = mysqli_fetch_array($tabela)){
+                        ?>
+                            <tbody>
+                            <tr class="table table-striped">
+                            <td>
+                                <?php echo $linha['id']; ?>
+                            </td>
+                            <td>
+                                <?php echo $linha['nome']; ?>
+                            </td>
+                            <td>
+                                <?php echo $linha['endereco']; ?>
+                            </td>
+                            <td>
+                                <?php echo $linha['telefone']; ?>
+                            </td>
+                            </tr>
+                        </tbody>
+                        <?php
+                        }
+                        ?>
                     </table>
-                  </div>
                 </div>
-              </div>
             </div>
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th>
-                      id
-                    </th>
-                    <th>
-                      nome
-                    </th>
-                    <th>
-                      quantidade
-                    </th>
-                    <th>
-                      peso
-                    </th>
-                    <th>
-                      alterar
-                    </th>
-                  </tr>
-                </thead>
-                <?php
-                // Fazendo uma consulta SQL
-                $sql = "SELECT * 
-                              FROM estoque 
-                              ORDER BY nome";
-                $tabela = mysqli_query($conexao, $sql);
-                while ($linha = mysqli_fetch_array($tabela)) {
-                ?>
-                  <tbody>
-                    <tr class="table-info">
-                      <td>
-                        <?php echo $linha['id']; ?>
-                      </td>
-                      <td>
-                        <?php echo $linha['nome']; ?>
-                      </td>
-                      <td>
-                        <?php echo $linha['qtde']; ?>
-                      </td>
-                      <td>
-                        <?php echo $linha['peso']; ?>
-                      </td>
-                      <td align="center">
-                        <a href="edita.php?acao=Alterar&id=<?php echo $linha['id']; ?>">
-                          <img src="imagens/alterar.png" border="0">
-                        </a>
-                        <a href="edita.php?acao=Excluir&id=<?php echo $linha['id']; ?>">
-                          <img src="imagens/excluir.png" border="0">
-                        </a>
-                      </td>
-                    </tr>
-                  </tbody>
-                <?php
-                }
-                ?>
-              </table>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <?php
-  mysqli_close($conexao);
-  ?>
+    <?php
+        mysqli_close($conexao);
+    ?>
   <!-- content-wrapper ends -->
   <!-- partial:../../partials/_footer.html -->
-  <footer class="footer">
-    <div class="d-sm-flex justify-content-center justify-content-sm-between">
-      <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021. Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash. All rights reserved.</span>
-      <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
+    <footer class="footer">
+        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021. Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash. All rights reserved.</span>
+        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
+        </div>
+    </footer>
+    <!-- partial -->
     </div>
-  </footer>
-  <!-- partial -->
-  </div>
-  <!-- main-panel ends -->
-  </div>
-  <!-- page-body-wrapper ends -->
-  </div>
-  <!-- container-scroller -->
-  <!-- plugins:js -->
-  <script src="../../vendors/js/vendor.bundle.base.js"></script>
-  <!-- endinject -->
-  <!-- Plugin js for this page -->
-  <!-- End plugin js for this page -->
-  <!-- inject:js -->
-  <script src="../../js/off-canvas.js"></script>
-  <script src="../../js/hoverable-collapse.js"></script>
-  <script src="../../js/template.js"></script>
-  <script src="../../js/settings.js"></script>
-  <script src="../../js/todolist.js"></script>
-  <!-- endinject -->
-  <!-- Custom js for this page-->
-  <!-- End custom js for this page-->
-</body>
-
+    <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../../vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="../../js/off-canvas.js"></script>
+    <script src="../../js/hoverable-collapse.js"></script>
+    <script src="../../js/template.js"></script>
+    <script src="../../js/settings.js"></script>
+    <script src="../../js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <!-- End custom js for this page-->
+    </body>
 </html>

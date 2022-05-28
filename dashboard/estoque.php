@@ -313,6 +313,12 @@ include 'conexao.php';
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="clientes.php">
+              <i class="icon-head menu-icon"></i>
+              <span class="menu-title">Clientes</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">UI Elements</span>
@@ -421,19 +427,19 @@ include 'conexao.php';
                 <thead>
                   <tr>
                     <th>
-                      id
+                      ID
                     </th>
                     <th>
-                      nome
+                      Nome
                     </th>
                     <th>
-                      quantidade
+                      Quantidade
                     </th>
                     <th>
-                      peso
+                      Peso
                     </th>
                     <th>
-                      alterar
+                      Alterar
                     </th>
                   </tr>
                 </thead>
