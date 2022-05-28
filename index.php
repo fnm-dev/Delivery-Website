@@ -7,7 +7,7 @@
   
   if(isset($_SESSION["logado"]) || $_SESSION["logado"] == TRUE){
     $path="./dashboard/index.php";
-    $status="Admin";
+    $status="Painel";
     $logout=TRUE;
 }else{
     $path="./dashboard/login.php";
@@ -140,6 +140,7 @@
                                 <li class="active"><a href="./index.php">Início</a></li>
                                 <li><a href="#colab">Colaboradores</a></li>
                                 <li><a href="./cardapio.php">Cardápio</a></li>
+                                <li><a href="fornecedores.php">Fornecedores</a></li>
                                 <li><?php echo "<a href=".$path.">".$status."</a>" ?></li>
                             </ul>
                             
@@ -204,7 +205,6 @@
                                     <option value="Hambúrguer de salmão">Hambúrguer de salmão</option>
                                 </select>
                             </div>
-                            
                             <button type="submit" class="site-btn">Realizar Pedido!</button>
                         </form>
                     </div>
