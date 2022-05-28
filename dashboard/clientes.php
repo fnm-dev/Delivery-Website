@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <?php
-  include 'conexao.php'; 
+include 'conexao.php';
 ?>
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -16,7 +17,7 @@
   <!-- Plugin css for this page -->
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="vendors/css/vertical-layout-light/style.css">
+  <link rel="stylesheet" href="css/vertical-layout-light/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="vendors/images/favicon.png" />
 </head>
@@ -26,8 +27,8 @@
     <!-- partial:../../partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="../../index.html"><img src="../../images/logo.svg" class="mr-2" alt="logo"/></a>
-        <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/logo-mini.svg" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-5" href="index.php"><img src="../../images/logo.svg" class="mr-2" alt="logo" /></a>
+        <a class="navbar-brand brand-logo-mini" href="index.php"><img src="../../images/logo-mini.svg" alt="logo" /></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -96,7 +97,7 @@
           </li>
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-              <img src="../../images/faces/face28.jpg" alt="profile"/>
+              <img src="../../images/faces/face28.jpg" alt="profile" />
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
               <a class="dropdown-item">
@@ -128,8 +129,12 @@
         <div id="theme-settings" class="settings-panel">
           <i class="settings-close ti-close"></i>
           <p class="settings-heading">SIDEBAR SKINS</p>
-          <div class="sidebar-bg-options selected" id="sidebar-light-theme"><div class="img-ss rounded-circle bg-light border mr-3"></div>Light</div>
-          <div class="sidebar-bg-options" id="sidebar-dark-theme"><div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark</div>
+          <div class="sidebar-bg-options selected" id="sidebar-light-theme">
+            <div class="img-ss rounded-circle bg-light border mr-3"></div>Light
+          </div>
+          <div class="sidebar-bg-options" id="sidebar-dark-theme">
+            <div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark
+          </div>
           <p class="settings-heading mt-2">HEADER SKINS</p>
           <div class="color-tiles mx-0 px-4">
             <div class="tiles success"></div>
@@ -296,9 +301,15 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="../../index.html">
+            <a class="nav-link" href="index.php">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="estoque.php">
+              <i class="icon-grid-2 menu-icon"></i>
+              <span class="menu-title">Estoque</span>
             </a>
           </li>
           <li class="nav-item">
@@ -342,12 +353,12 @@
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
               <i class="icon-grid-2 menu-icon"></i>
-              <span class="menu-title">Tables</span>
+              <span class="menu-title">Estoque</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="tables">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../../pages/tables/basic-table.html">Basic table</a></li>
+                <li class="nav-item"> <a class="nav-link" href="estoque.php">tabela de estoque</a></li>
               </ul>
             </div>
           </li>
@@ -397,83 +408,261 @@
           </li>
         </ul>
       </nav>
-      <!-- partial -->
-   
-
-            <div class="col-lg-12 stretch-card">
+      <div class="col-lg-12 stretch-card">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Estoque</h4>
+            <p class="card-description">
+              Gestão de estoque <description>(cadastre, exclua ou atualize as informações)</description>
+            </p>
+            <a href="edita.php?acao=Incluir"><b>Cadastrar</b></a>
+            <div class="table-responsive pt-3">
+            <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Table with contextual classes</h4>
+                  <h4 class="card-title">Striped Table</h4>
                   <p class="card-description">
-                    Add class <code>.table-{color}</code>
+                    Add class <code>.table-striped</code>
                   </p>
-                  <div class="table-responsive pt-3">
-                    <table class="table table-bordered">
+                  <div class="table-responsive">
+                    <table class="table table-striped">
                       <thead>
-                        <?php
-                          // Fazendo uma consulta SQL
-                          $sql = "SELECT * 
-                              FROM estoque 
-                              ORDER BY nome";
-                          $tabela = mysqli_query($conexao,$sql);
-                          while ($linha = mysqli_fetch_array($tabela))
-                          {
-                        ?>
                         <tr>
                           <th>
-                            id
+                            User
                           </th>
                           <th>
-                            nome
+                            First name
                           </th>
                           <th>
-                            quantidade
+                            Progress
                           </th>
                           <th>
-                            peso
+                            Amount
+                          </th>
+                          <th>
+                            Deadline
                           </th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr class="table-info">
-                          <td>
-                            <?php echo $linha['id']; ?>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face1.jpg" alt="image"/>
                           </td>
                           <td>
-                            <?php echo $linha['nome']; ?>
+                            Herman Beck
                           </td>
                           <td>
-                            <?php echo $linha['qtde']; ?>
+                            <div class="progress">
+                              <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                           </td>
                           <td>
-                            <?php echo $linha['peso']; ?>
+                            $ 77.99
+                          </td>
+                          <td>
+                            May 15, 2015
                           </td>
                         </tr>
-                        
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face2.jpg" alt="image"/>
+                          </td>
+                          <td>
+                            Messsy Adam
+                          </td>
+                          <td>
+                            <div class="progress">
+                              <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </td>
+                          <td>
+                            $245.30
+                          </td>
+                          <td>
+                            July 1, 2015
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face3.jpg" alt="image"/>
+                          </td>
+                          <td>
+                            John Richards
+                          </td>
+                          <td>
+                            <div class="progress">
+                              <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </td>
+                          <td>
+                            $138.00
+                          </td>
+                          <td>
+                            Apr 12, 2015
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face4.jpg" alt="image"/>
+                          </td>
+                          <td>
+                            Peter Meggik
+                          </td>
+                          <td>
+                            <div class="progress">
+                              <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </td>
+                          <td>
+                            $ 77.99
+                          </td>
+                          <td>
+                            May 15, 2015
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face5.jpg" alt="image"/>
+                          </td>
+                          <td>
+                            Edward
+                          </td>
+                          <td>
+                            <div class="progress">
+                              <div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </td>
+                          <td>
+                            $ 160.25
+                          </td>
+                          <td>
+                            May 03, 2015
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face6.jpg" alt="image"/>
+                          </td>
+                          <td>
+                            John Doe
+                          </td>
+                          <td>
+                            <div class="progress">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </td>
+                          <td>
+                            $ 123.21
+                          </td>
+                          <td>
+                            April 05, 2015
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face7.jpg" alt="image"/>
+                          </td>
+                          <td>
+                            Henry Tom
+                          </td>
+                          <td>
+                            <div class="progress">
+                              <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </td>
+                          <td>
+                            $ 150.00
+                          </td>
+                          <td>
+                            June 16, 2015
+                          </td>
+                        </tr>
                       </tbody>
                     </table>
                   </div>
                 </div>
               </div>
             </div>
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>
+                      id
+                    </th>
+                    <th>
+                      nome
+                    </th>
+                    <th>
+                      quantidade
+                    </th>
+                    <th>
+                      peso
+                    </th>
+                    <th>
+                      alterar
+                    </th>
+                  </tr>
+                </thead>
+                <?php
+                // Fazendo uma consulta SQL
+                $sql = "SELECT * 
+                              FROM estoque 
+                              ORDER BY nome";
+                $tabela = mysqli_query($conexao, $sql);
+                while ($linha = mysqli_fetch_array($tabela)) {
+                ?>
+                  <tbody>
+                    <tr class="table-info">
+                      <td>
+                        <?php echo $linha['id']; ?>
+                      </td>
+                      <td>
+                        <?php echo $linha['nome']; ?>
+                      </td>
+                      <td>
+                        <?php echo $linha['qtde']; ?>
+                      </td>
+                      <td>
+                        <?php echo $linha['peso']; ?>
+                      </td>
+                      <td align="center">
+                        <a href="edita.php?acao=Alterar&id=<?php echo $linha['id']; ?>">
+                          <img src="imagens/alterar.png" border="0">
+                        </a>
+                        <a href="edita.php?acao=Excluir&id=<?php echo $linha['id']; ?>">
+                          <img src="imagens/excluir.png" border="0">
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                <?php
+                }
+                ?>
+              </table>
+            </div>
           </div>
         </div>
-        <?php
-          mysqli_close($conexao);
-        ?>
-        <!-- content-wrapper ends -->
-        <!-- partial:../../partials/_footer.html -->
-        <footer class="footer">
-          <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash. All rights reserved.</span>
-            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
-          </div>
-        </footer>
-        <!-- partial -->
       </div>
-      <!-- main-panel ends -->
     </div>
-    <!-- page-body-wrapper ends -->
+  </div>
+  <?php
+  mysqli_close($conexao);
+  ?>
+  <!-- content-wrapper ends -->
+  <!-- partial:../../partials/_footer.html -->
+  <footer class="footer">
+    <div class="d-sm-flex justify-content-center justify-content-sm-between">
+      <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021. Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash. All rights reserved.</span>
+      <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
+    </div>
+  </footer>
+  <!-- partial -->
+  </div>
+  <!-- main-panel ends -->
+  </div>
+  <!-- page-body-wrapper ends -->
   </div>
   <!-- container-scroller -->
   <!-- plugins:js -->

@@ -37,20 +37,16 @@
 	}
 	?>
 
-
-
-
-
 	<form name="dados" method="post" action="cadastro.php?id=<?php echo $id; ?>">
 		<legend>Estoque</legend>
 		<div class="mb-3">
 			<label for="nome" class="form-label">Nome:</label>
-			<input type="text" class="form-control" id="nome" name="nome" value="<?php echo $nome; ?>" aria-describedby="emailHelp"><br>
+			<input type="text" required class="form-control" id="nome" name="nome" value="<?php echo $nome; ?>" aria-describedby="emailHelp"><br>
 			<label for="qtde" class="form-label">Quantidade:</label>
-			<input type="number" class="form-control" id="qtde" name="qtde" value="<?php echo $qtde; ?>"><br>
+			<input type="number" required class="form-control" id="qtde" name="qtde" value="<?php echo $qtde; ?>"><br>
 			<label for="peso" class="form-label">Peso:</label>
 			<input type="number" class="form-control" id="peso" name="peso" value="<?php echo $peso; ?>"><br>
-			<button type="submit" class="btn btn-primary" name="acao" value="<?php echo $acao; ?>">incluir</button>
+			<button type="submit" class="btn btn-primary" name="acao" value="<?php echo $acao; ?>">Enviar</button>
 			<button type="submit" class="btn btn-primary" name="acao" value="Cancelar">cancelar</button>
 		</div>
 

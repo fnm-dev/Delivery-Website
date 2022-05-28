@@ -38,5 +38,5 @@
 		
 		mysqli_close($conexao);
 	}
-	header("Location: index.php");
+	header("Location: estoque.php");
 ?>

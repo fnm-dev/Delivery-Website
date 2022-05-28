@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <?php
-  include 'conexao.php'; 
+include 'conexao.php';
 ?>
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -26,8 +27,8 @@
     <!-- partial:../../partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="index.php"><img src="../../images/logo.svg" class="mr-2" alt="logo"/></a>
-        <a class="navbar-brand brand-logo-mini" href="index.php"><img src="../../images/logo-mini.svg" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-5" href="index.php"><img src="../../images/logo.svg" class="mr-2" alt="logo" /></a>
+        <a class="navbar-brand brand-logo-mini" href="index.php"><img src="../../images/logo-mini.svg" alt="logo" /></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -96,7 +97,7 @@
           </li>
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-              <img src="../../images/faces/face28.jpg" alt="profile"/>
+              <img src="../../images/faces/face28.jpg" alt="profile" />
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
               <a class="dropdown-item">
@@ -128,8 +129,12 @@
         <div id="theme-settings" class="settings-panel">
           <i class="settings-close ti-close"></i>
           <p class="settings-heading">SIDEBAR SKINS</p>
-          <div class="sidebar-bg-options selected" id="sidebar-light-theme"><div class="img-ss rounded-circle bg-light border mr-3"></div>Light</div>
-          <div class="sidebar-bg-options" id="sidebar-dark-theme"><div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark</div>
+          <div class="sidebar-bg-options selected" id="sidebar-light-theme">
+            <div class="img-ss rounded-circle bg-light border mr-3"></div>Light
+          </div>
+          <div class="sidebar-bg-options" id="sidebar-dark-theme">
+            <div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark
+          </div>
           <p class="settings-heading mt-2">HEADER SKINS</p>
           <div class="color-tiles mx-0 px-4">
             <div class="tiles success"></div>
@@ -403,94 +408,93 @@
           </li>
         </ul>
       </nav>
-            <div class="col-lg-12 stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Estoque</h4>
-                  <p class="card-description">
-                    Gestão de estoque <description>(cadastre, exclua ou atualize as informações)</description>
-                  </p>
-                  <a href="edita.php?acao=Incluir"><b>Cadastrar</b></a>
-                  <div class="table-responsive pt-3">
-                    <table class="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            id
-                          </th>
-                          <th>
-                            nome
-                          </th>
-                          <th>
-                            quantidade
-                          </th>
-                          <th>
-                            peso
-                          </th>
-                          <th>
-                            alterar
-                          </th>
-                        </tr>
-                      </thead>
-                      <?php
-                          // Fazendo uma consulta SQL
-                          $sql = "SELECT * 
+      <div class="col-lg-12 stretch-card">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Estoque</h4>
+            <p class="card-description">
+              Gestão de estoque <description>(cadastre, exclua ou atualize as informações)</description>
+            </p>
+            <a href="edita.php?acao=Incluir"><b>Cadastrar</b></a>
+            <div class="table-responsive pt-3">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>
+                      id
+                    </th>
+                    <th>
+                      nome
+                    </th>
+                    <th>
+                      quantidade
+                    </th>
+                    <th>
+                      peso
+                    </th>
+                    <th>
+                      alterar
+                    </th>
+                  </tr>
+                </thead>
+                <?php
+                // Fazendo uma consulta SQL
+                $sql = "SELECT * 
                               FROM estoque 
                               ORDER BY nome";
-                          $tabela = mysqli_query($conexao,$sql);
-                          while ($linha = mysqli_fetch_array($tabela))
-                          {
-                        ?>
-                      <tbody>
-                        <tr class="table-info">
-                          <td>
-                            <?php echo $linha['id']; ?>
-                          </td>
-                          <td>
-                            <?php echo $linha['nome']; ?>
-                          </td>
-                          <td>
-                            <?php echo $linha['qtde']; ?>
-                          </td>
-                          <td>
-                            <?php echo $linha['peso']; ?>
-                          </td>
-                          <td align="center">
-                            <a href="edita.php?acao=Alterar&id=<?php echo $linha['id']; ?>" >
-                              <img src="imagens/alterar.png" border="0">            
-                            </a>
-                            <a href="edita.php?acao=Excluir&id=<?php echo $linha['id']; ?>">
-                              <img src="imagens/excluir.png" border="0">
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                      <?php
-                        }
-                      ?>
-                    </table>
-                  </div>
-                </div>
-              </div>
+                $tabela = mysqli_query($conexao, $sql);
+                while ($linha = mysqli_fetch_array($tabela)) {
+                ?>
+                  <tbody>
+                    <tr class="table-info">
+                      <td>
+                        <?php echo $linha['id']; ?>
+                      </td>
+                      <td>
+                        <?php echo $linha['nome']; ?>
+                      </td>
+                      <td>
+                        <?php echo $linha['qtde']; ?>
+                      </td>
+                      <td>
+                        <?php echo $linha['peso']; ?>
+                      </td>
+                      <td align="center">
+                        <a href="edita.php?acao=Alterar&id=<?php echo $linha['id']; ?>">
+                          <img src="imagens/alterar.png" border="0">
+                        </a>
+                        <a href="edita.php?acao=Excluir&id=<?php echo $linha['id']; ?>">
+                          <img src="imagens/excluir.png" border="0">
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                <?php
+                }
+                ?>
+              </table>
             </div>
           </div>
         </div>
-        <?php
-          mysqli_close($conexao);
-        ?>
-        <!-- content-wrapper ends -->
-        <!-- partial:../../partials/_footer.html -->
-        <footer class="footer">
-          <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash. All rights reserved.</span>
-            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
-          </div>
-        </footer>
-        <!-- partial -->
       </div>
-      <!-- main-panel ends -->
     </div>
-    <!-- page-body-wrapper ends -->
+  </div>
+  <?php
+  mysqli_close($conexao);
+  ?>
+  <!-- content-wrapper ends -->
+  <!-- partial:../../partials/_footer.html -->
+  <footer class="footer">
+    <div class="d-sm-flex justify-content-center justify-content-sm-between">
+      <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021. Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash. All rights reserved.</span>
+      <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
+    </div>
+  </footer>
+  <!-- partial -->
+  </div>
+  <!-- main-panel ends -->
+  </div>
+  <!-- page-body-wrapper ends -->
   </div>
   <!-- container-scroller -->
   <!-- plugins:js -->
