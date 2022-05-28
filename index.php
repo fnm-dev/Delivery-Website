@@ -139,8 +139,10 @@
                             <ul>
                                 <li class="active"><a href="./index.php">Início</a></li>
                                 <li><a href="#colab">Colaboradores</a></li>
+                                <li><a href="./cardapio.php">Cardápio</a></li>
                                 <li><?php echo "<a href=".$path.">".$status."</a>" ?></li>
                             </ul>
+                            
                         </nav>
                         <?php if($logout==TRUE) echo '<a href="./dashboard/logout.php"><div class="header__search"><i class="fa-solid fa-arrow-right-from-bracket"></i></div></a>' ?>
                         &nbsp;&nbsp;&nbsp;&nbsp;
