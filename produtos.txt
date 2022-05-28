@@ -1087,3 +1087,12 @@
 -Qtd:
 -Tipo de pedido:
 
+****Guia de pedidos****
+
+-Nº pedido: 1014623986
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
