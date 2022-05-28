@@ -1096,3 +1096,831 @@
 -Qtd:
 -Tipo de pedido:
 
+****Guia de pedidos****
+
+-Nº pedido: 1044773869
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1164086612
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1978435927
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1695812925
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1046405265
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1985187739
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 378299360
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 884000296
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 894360777
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 602868405
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 189045439
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 907162810
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1034751847
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 184246755
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1483379351
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 371915037
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 325819510
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 2095878353
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 556904421
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 646332969
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 272198076
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1411302802
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 81349982
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 837803291
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1010635123
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1101737543
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1444723559
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1740686064
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1897223238
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 338774497
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1685671120
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 2110867932
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1359584756
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1050631993
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1154555057
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 127094813
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1211046324
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1621760543
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 792543913
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1015196187
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1186781148
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1752744996
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1132545590
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 176263056
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1759697950
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1936086222
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 169770151
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1344232608
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 471813565
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 726777732
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1953320694
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1099027213
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 729256689
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 726687345
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1994581958
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 812976533
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 970664097
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1568729327
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 260365068
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1071107516
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1825320653
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 331269866
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1679912805
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 1157084222
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1175996417
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1584328651
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1449963653
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1375987410
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1498103302
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1657125305
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 757121371
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1583094454
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1955710481
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1657859644
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:
+
+****Guia de pedidos****
+
+-Nº pedido: 1887876128
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 1696553715
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 1904111262
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 178258324
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 393606673
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 2095571715
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 140711570
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 1757885756
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 1360446466
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 537938624
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 867111141
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 1666886582
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 208894675
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 933245211
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 380465138
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 82141115
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 664771485
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
+****Guia de pedidos****
+
+-Nº pedido: 1223907927
+-Nome:
+-Telefone:
+-Endereço:
+-Qtd:
+-Tipo de pedido:Hamburguer manos e minas
+
