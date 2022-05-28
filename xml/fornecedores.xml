@@ -1,35 +1,19 @@
-<!- Lista de Fornecedores ->
-
-<fornecedores>
-
-   <fornecedordelegumes>
-
-      <nome>Dois Irmaos</nome>
-
-              <telefones>
-                <telefone>011987657843</telefone>
-                <telefone>011921453434</telefone>
-               </telefones>
-              <emails>
-                <email>doisirmaos@gmail.com</email>
-                <email>doisirmaos2@gmail.com</email>
-              <emails>
-
-  </fornecedordelegumes>
-
-   <fornecedordepao>
-
-      <nome> Pao-Bom </nome>
-
-              <Telefones>
-                <telefone>011900001234</telefone>
-                <telefone>011111000000</telefone>
-               </Telefones>
-              <emails>
-                <email>paobom@gmail.com</email>
-                <email>paobom2@gmail.com</email>
-              <emails>
-
-  </fornecedordepao>
-
-</fornecedores>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<array>
+  <fornecedores>
+    <fornecedor1>
+        <nome>Dois Irmãos</nome>
+        <telefone1>(11)98765-7843</telefone1>
+        <telefone2>(11)92145-3434</telefone2>
+        <email1>doisirmaos@gmail.com</email1>
+        <email2>doisirmaos2@gmail.com</email2>
+    </fornecedor1>
+    <fornecedor2>
+      <nome>Pão-Bom</nome>
+      <telefone1>(11)90000-1234</telefone1>
+      <telefone2>(11)11100-0000</telefone2>
+      <email1>paobom@gmail.com</email1>
+      <email2>paobom2@gmail.com</email2>
+    </fornecedor2>
+  </fornecedores>
+</array>
