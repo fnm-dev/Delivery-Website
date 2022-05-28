@@ -73,7 +73,18 @@ CREATE TABLE CADASTRA_E (
     FK_ESTOQUE_id int(5) not null,
     dataehora datetime PRIMARY KEY not null
 );
- 
+
+CREATE INDEX EstoqueNome
+ON Estoque (nome);
+CREATE INDEX ClienteNome
+ON Cliente (nome);
+CREATE INDEX AdministradorNome
+ON Administrador (nome);
+CREATE INDEX MotoboyNome
+ON Motoboy (nome);
+CREATE INDEX ProdutoNome
+ON Produto (nome);
+
 ALTER TABLE REALIZA ADD CONSTRAINT FK_REALIZA_1
     FOREIGN KEY (FK_PEDIDO_id)
     REFERENCES PEDIDO (id)
