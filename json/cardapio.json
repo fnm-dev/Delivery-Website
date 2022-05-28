@@ -2,23 +2,24 @@
 
     {
         "nome": "X-Salada",
+        "imagem": "img\\hamburguers\\01.png",
         "valor": 18.90,
-        "descricao": "pao, alface, tomate, hamburguer",
-        "disponivel": true
+        "descricao": "pao, alface, tomate, hamburguer"
+        
     },
 
     {
         "nome": "X-Bacon",
-        "valor": 19.90,
-        "descricao": "pao, bacon, hamburguer, maionese-verde",
-        "disponivel": true
+        "imagem": "img\\hamburguers\\03.png",
+        "valor": 18.90,
+        "descricao": "pao, bacon, hamburguer, maionese-verde"
     },
 
     {
         "nome": "X-Frango",
+        "imagem": "img\\hamburguers\\02.png",
         "valor": 17.90,
-        "descricao": "pao, bacon, frango-desfiado, maionese-verde",
-        "disponivel": false
+        "descricao": "pao, bacon, frango-desfiado, maionese-verde"
     }
 
 ]
