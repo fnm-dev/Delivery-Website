@@ -10,7 +10,7 @@
                 ?>
                 </li>
                     <li><i class="fa fa-phone"></i> (11) 4567-8910</li>
-                    <li><i class="fa fa-envelope"></i> brothersburgue@gmail.com</li>
+                    <li><i class="fa fa-envelope"></i> brothersburguers@gmail.com</li>
                     <li><i class="fa fa-calendar"></i>
                 <?php
                 $numero_dia = date('w')*1;
@@ -29,7 +29,7 @@
                         <span>Portugues/BR</span>
                         <i class="fa fa-angle-down"></i>
                         <ul>
-                            <li><a href="index.php">Portugues/BR</a></li>                
+                            <li><a href="index.php">Português/BR</a></li>                
                         </ul>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                     <nav class="header__menu">
                         <ul>
                             <li class="active"><a href="./index.php">Início</a></li>
-                            <li><a href="#colab">Colaboradores</a></li>
+                            <li><a href="./index.php#colab">Colaboradores</a></li>
                             <li><a href="./cardapio.php">Cardápio</a></li>
                             <li><a href="fornecedores.php">Fornecedores</a></li>
                             <li><?php echo "<a href=".$path.">".$status."</a>" ?></li>
