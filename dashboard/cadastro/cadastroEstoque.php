@@ -17,7 +17,8 @@
 		switch ($acao) {
 			case "Alterar":
 				$sql = "UPDATE estoque SET 
-						nome='$nome', 
+						nome='$nome',
+						qtde='$qtde', 
 						peso='$peso' 
 						WHERE id='$id'";
 				break;
