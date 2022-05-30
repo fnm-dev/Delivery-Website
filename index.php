@@ -85,6 +85,14 @@
                                 <p>“Um computador permite que você faça erros mais rapidamente do que qualquer outra invenção da história da humanidade, com exceção das mãos e da tequila.” - Mitch Ratcliffe</p>
                             </div>
                         </div>
+                        <div class="col-lg-4">
+                            <div class="testimonial__item">
+                                <img src="img/testimonial/lucas.png" alt="">
+                                <h5>Lucas Almeida</h5>
+                                <span>Full-Stack</span>
+                                <p>“No futuro, os computadores podem pesar não mais que 1.5 toneladas.” - Mechanics</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
