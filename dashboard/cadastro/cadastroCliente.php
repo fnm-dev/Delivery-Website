@@ -18,8 +18,8 @@
 			case "Alterar":
 				$sql = "UPDATE cliente SET 
 						nome='$nome', 
-						endereco='$endereco' 
-                        telefone='$telefone' 
+						endereco='$endereco', 
+                        telefone='$telefone'
 						WHERE id='$id'";
 				break;
 			
@@ -32,7 +32,7 @@
 				$sql = "INSERT INTO cliente
 						(id, nome, endereco, telefone) 
 						VALUES 
-						('$id','$nome', '$endereco', '$telefone')";
+						('$nome', '$endereco', '$telefone')";
 				break;
 		}
 		$tabela = mysqli_query($conexao,$sql) or die (mysqli_error());            
