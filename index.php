@@ -17,60 +17,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
-                        <div class="hero__text">
-                            <h2>Faça seu pedido:</h2>
-                            <h5 style="color:white;"><b>Tempo de entrega aproximadamente: 25 minutos</b></h5><br>
-                            <a href="#" class="primary-btn howit-btn">Faça seu pedido AGORA!</a>
+                        <div class="hero__text" style="margin-bottom: 10rem;">
+                            <h2>Retire seu pedido na loja ou peça para receber em casa</h2>
+                            <h3 style="color:white;">Tempo de entrega aproximadamente: 25 minutos</h3><br>
+                            
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-2">
-                        <div class="hero__form">
-                            <h3></h3>
-                            <form>
-                                <div class="input-list">
-                                    <div class="input-list-item">
-                                        <p>Nome:</p>
-                                        <input type="text" name="nome">
-                                    </div>
-                                    <div class="input-list-item">
-                                        <p>Telefone:</p>
-                                        <input type="text" name="telefone">
-                                    </div>
-                                </div>
-                                <div class="input-full-width">
-                                    <p>Endereço:</p>
-                                    <input type="text" name="endereco">
-                                </div>
-
-                                <div class="input-full-width">
-                                    <p>Quantidade:</p>
-                                    <input type="text" name="quantidade">
-                                </div>
-
-                                <div class="select">
-                                    <p>Pedido:</p>
-                                    <!--<input type="text" name="pedido">-->
-
-                                    <select class="input-full-width" name="pedido">
-                                        <option value="Hamburguer manos e minas">Hamburguer manos e minas</option>
-                                        <option value="Hambúrguer misto">Hambúrguer misto</option>
-                                        <option value="Hambúrguer de frango">Hambúrguer de frango</option>
-                                        <option value="Hambúrguer de picanha">Hambúrguer de picanha</option>
-                                        <option value="Hambúrguer de salmão">Hambúrguer de salmão</option>
-                                    </select>
-                                </div>
-                                <button type="submit" class="site-btn">Realizar Pedido!</button>
-                                <div class="form-group mb-2">
-                                <label>Enviar</label>
-                                <div class="col px-0">
-                                    <button id="by-link" type="button" class="btn btn-info">Link</button>
-                                    <button id="by-popup" type="button" class="btn btn-info">PopUp</button>
-                                    <hidden id="phone" value="5511942036449"></hidden>
-                                    <hidden id="message" value="abc"></hidden>
-                                </div>
-                            </div>
-                            </form>
-                        </div>
+                        <button onclick="window.location.href='./cardapio.php'" class="btn btn-success" style="margin-top: 15rem; width:20rem; height:4rem; font-size:25px; text-align:center;">VER CARDÁPIO</button>
                     </div>
                 </div>
             </div>
@@ -134,22 +88,10 @@
                     </div>
                 </div>
             </div>
+            <br><center><img src="./img/testimonial/hand.png" /></center><br>
         </div>
         <?php include_once("./partials/footer.php") ?>
         <?php include_once("./partials/search.php") ?>
         <?php include_once("./partials/scripts.php") ?>
     </body>
 </html>
-
-<?php
-error_reporting(0);
-$nome=$_GET['nome'];
-$telefone=$_GET['telefone'];
-$endereco=$_GET['endereco'];
-$quantidade=$_GET['quantidade'];
-$pedido=$_GET['pedido'];
-$pedidoN = rand();
-$arquivo = fopen("./produtos.txt","a");
-fwrite($arquivo,"****Guia de pedidos****\n\n-Nº pedido: $pedidoN\n-Nome:$nome\n-Telefone:$telefone\n-Endereço:$endereco\n-Qtd:$quantidade\n-Tipo de pedido:$pedido\n\n");
-fclose($arquivo);
-?>
