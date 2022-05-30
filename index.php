@@ -90,7 +90,7 @@
                                 <img src="img/testimonial/lucas.png" alt="">
                                 <h5>Lucas Almeida</h5>
                                 <span>Full-Stack</span>
-                                <p>“No futuro, os computadores podem pesar não mais que 1.5 toneladas.” - Mechanics</p>
+                                <p>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler </p>
                             </div>
                         </div>
                     </div>
