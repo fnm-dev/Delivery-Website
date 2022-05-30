@@ -120,7 +120,7 @@ Valor total: R$'. number_format($cart->getAttributeTotal('price'), 2, ',', '.').
 				</div>
 				<div class="pull-right text-right">
 					<a href="?a=home" class="btn btn-default" style="width: 250px; font-size:20px;">Continuar comprando</a>
-					<a href="https://wa.me/5511980658160?text='.$pedido.'" target="_blank" class="btn btn-success" style="width: 200px; font-size:20px;">Finalizar pedido</a>
+					<a href="https://wa.me/5511980658160?text='.$pedido.'" target="_blank" class="btn btn-success btn-empty-cart" style="width: 200px; font-size:20px;">Finalizar pedido</a>
 				</div>
 			</p>';
 		}
