@@ -12,7 +12,7 @@
 	<?php
 	include '../conexao.php'; 
 
-	$acao=$_GET["acao"];
+	$acao=$_GET["acao"]; 
 
 	if ($acao == "Incluir")
 	{
@@ -47,7 +47,7 @@
 			<label for="peso" class="form-label">Peso:</label>
 			<input type="number" class="form-control" id="peso" name="peso" value="<?php echo $peso; ?>"><br>
 			<button type="submit" class="btn btn-primary" name="acao" value="<?php echo $acao; ?>">Enviar</button>
-			<button type="submit" class="btn btn-primary" name="acao" value="Cancelar">cancelar</button>
+			<a class="btn btn-primary" href="../estoque.php">Cancelar</a>
 		</div>
 
 	</form>

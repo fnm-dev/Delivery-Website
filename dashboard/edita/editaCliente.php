@@ -47,7 +47,7 @@
 			<label for="telefone" class="form-label">Telefone:</label>
 			<input type="text" class="form-control" id="telefone" name="telefone" value="<?php echo $telefone; ?>"><br>
 			<button type="submit" class="btn btn-primary" name="acao" value="<?php echo $acao; ?>">Enviar</button>
-			<button type="submit" class="btn btn-primary" name="acao" value="Cancelar">cancelar</button>
+			<a class="btn btn-primary" href="../clientes.php">Cancelar</a>
 		</div>
 
 	</form>

@@ -20,7 +20,7 @@
             <div class="card-body">
               <h4 class="card-title">Clientes</h4>
               <p class="card-description">
-                <code>Lista de Clientes</code>
+                <code>Gestão de clientes <description>(cadastre, exclua ou atualize as informações)</description></code>
               </p>
               <a href="./edita/editaCliente.php?acao=Incluir"><b>Cadastrar</b></a>
               <div class="table-responsive">
@@ -38,6 +38,9 @@
                           </th>
                           <th>
                               Telefone
+                          </th>
+                          <th>
+                            Alterar
                           </th>
                         </tr>
                       </thead>
@@ -62,6 +65,14 @@
                           <td>
                             <?php echo $linha['telefone']; ?>
                           </td>
+                          <td>
+                              <a href="./edita/editaEstoque.php?acao=Alterar&id=<?php echo $linha['id']; ?>">
+                                <img src="imagens/alterar.png" border="0">
+                              </a>
+                              <a href="./edita/editaEstoque.php?acao=Excluir&id=<?php echo $linha['id']; ?>">
+                                <img src="imagens/excluir.png" border="0">
+                              </a>
+                            </td>
                         </tr>
                       </tbody>
                       <?php
@@ -75,8 +86,8 @@
             <?php
               mysqli_close($conexao);
             ?>
-            <?php include_once("./partials/footer.php") ?>
           </div>
+          <?php include_once("./partials/footer.php") ?>
         </div>
       </div>
       <?php include_once("./partials/scripts.php") ?>

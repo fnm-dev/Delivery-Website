@@ -141,11 +141,11 @@
                 </div>
               </div>
             </div>
-          <?php include_once("./partials/footer.php") ?>
+          </div>
         </div>
-      </div>   
-    </div>
-    <?php include_once("./partials/scripts.php") ?>
-  </body>
+      </div>
+      <?php include_once("./partials/footer.php") ?>
+      <?php include_once("./partials/scripts.php") ?>
+    </body>
 </html>
 

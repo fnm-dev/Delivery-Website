@@ -11,8 +11,8 @@
 
 		$id=$_GET['id'];
 		$nome=$_POST['nome'];
-		$qtde=$_POST['endereco'];
-		$peso=$_POST['telefone'];
+		$endereco=$_POST['endereco'];
+		$telefone=$_POST['telefone'];
  
 		switch ($acao) {
 			case "Alterar":

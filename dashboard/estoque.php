@@ -59,14 +59,14 @@
                             </td>
                             <td>
                               <?php echo $linha['nome']; ?>
-                            </td>
+                            </td> 
                             <td>
                               <?php echo $linha['qtde']; ?>
                             </td>
                             <td>
                               <?php echo $linha['peso']; ?>
                             </td>
-                            <td align="center">
+                            <td>
                               <a href="./edita/editaEstoque.php?acao=Alterar&id=<?php echo $linha['id']; ?>">
                                 <img src="imagens/alterar.png" border="0">
                               </a>
