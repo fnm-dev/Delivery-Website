@@ -7,7 +7,7 @@
 	}
 	else
 	{
-		include 'conexao.php'; 
+		include '../conexao.php'; 
 
 		$id=$_GET['id'];
 		$nome=$_POST['nome'];
@@ -38,5 +38,5 @@
 		
 		mysqli_close($conexao);
 	}
-	header("Location: estoque.php");
+	header("Location: ../estoque.php");
 ?>
