@@ -19,7 +19,7 @@
 				$sql = "UPDATE estoque SET 
 						nome='$nome',
 						qtde='$qtde', 
-						peso='$peso' 
+						peso='$peso'
 						WHERE id='$id'";
 				break;
 			
