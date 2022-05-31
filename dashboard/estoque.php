@@ -70,7 +70,7 @@
                               <a href="./edita/editaEstoque.php?acao=Alterar&id=<?php echo $linha['id']; ?>">
                                 <img src="imagens/alterar.png" border="0">
                               </a>
-                              <a href="./edita/editaEstoque.php?acao=Excluir&id=<?php echo $linha['id']; ?>">
+                              <a href="./excluir/excluirEstoque.php?acao=Excluir&id=<?php echo $linha['id']; ?>">
                                 <img src="imagens/excluir.png" border="0">
                               </a>
                             </td>
