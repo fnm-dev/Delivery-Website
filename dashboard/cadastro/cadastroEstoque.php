@@ -36,7 +36,6 @@
 				break;
 		}
 		$tabela = mysqli_query($conexao,$sql) or die (mysqli_error());            
-		
 		mysqli_close($conexao);
 	}
 	header("Location: ../estoque.php");
