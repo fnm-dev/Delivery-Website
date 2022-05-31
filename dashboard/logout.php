@@ -1,7 +1,6 @@
 <?php 
     session_start();
     if(session_destroy()){
-        $_SESSION="nlogado";
         echo '<script type ="text/JavaScript">';  
         echo 'alert("Redirecionando...")';  
         echo '</script>';
