@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>BrothersBurguers | Clientes</title>
@@ -69,7 +68,7 @@
                               <a href="./edita/editaCliente.php?acao=Alterar&id=<?php echo $linha['id']; ?>">
                                 <img src="imagens/alterar.png" border="0">
                               </a>
-                              <a href="./edita/editaCliente.php?acao=Excluir&id=<?php echo $linha['id']; ?>">
+                              <a href="./excluir/excluirCliente.php?acao=Excluir&id=<?php echo $linha['id']; ?>">
                                 <img src="imagens/excluir.png" border="0">
                               </a>
                             </td>
