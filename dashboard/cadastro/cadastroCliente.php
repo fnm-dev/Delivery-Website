@@ -30,7 +30,7 @@
 			
 			case "Incluir":
 				$sql = "INSERT INTO cliente
-						(id, nome, endereco, telefone) 
+						(nome, endereco, telefone) 
 						VALUES 
 						('$nome', '$endereco', '$telefone')";
 				break;
