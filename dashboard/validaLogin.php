@@ -1,7 +1,7 @@
 <?php
     session_start();
-    $login = array("user01", "user02", "user03", "user04", "user05");
-    $senha = array("senha01", "senha02", "senha03", "senha04", "senha05");
+    $login = array("admin");
+    $senha = array("admin");
     $tamArray = count($login);
     $msg = FALSE;
     for ($i = 0; $i < $tamArray; $i++) {
