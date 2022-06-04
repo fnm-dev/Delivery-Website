@@ -27,9 +27,9 @@
                         <h5>Redes sociais</h5>
                         <div class="footer__widget footer__widget--social">
                             <ul>
-                                <li><a href="https://pt-br.facebook.com/"><i class="fa fa-facebook"></i> Facebook</a></li>
-                                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i> Instagram</a></li>
-                                <li><a href="https://www.whatsapp.com/"><i class="fa fa-whatsapp"></i> WhatsApp</a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                                <li><a href="#"><i class="fa fa-whatsapp"></i> WhatsApp</a></li>
                             </ul>
                         </div>
                     </div>
