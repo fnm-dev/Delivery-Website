@@ -31,7 +31,7 @@
               <img src="../img/testimonial/unknown.png" alt="profile" />
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-              <a href="/brothersburguers/dashboard/logout.php" class="dropdown-item">
+              <a href="logout.php" class="dropdown-item">
                 <i class="ti-power-off text-primary"></i>
                 Logout
               </a>
