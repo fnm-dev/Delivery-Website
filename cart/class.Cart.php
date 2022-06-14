@@ -1,46 +1,17 @@
 <?php
     class Cart
     {
-        /**
-         * An unique ID for the cart.
-         *
-         * @var string
-         */
+
         protected $cartId;
 
-        /**
-         * Maximum item allowed in the cart.
-         *
-         * @var int
-         */
         protected $cartMaxItem = 0;
 
-        /**
-         * Maximum quantity of a item allowed in the cart.
-         *
-         * @var int
-         */
         protected $itemMaxQuantity = 0;
 
-        /**
-         * Enable or disable cookie.
-         *
-         * @var bool
-         */
         protected $useCookie = false;
 
-        /**
-         * A collection of cart items.
-         *
-         * @var array
-         */
         private $items = [];
 
-        /**
-         * Initialize cart.
-         *
-         * @param array $options
-         */
         public function __construct($options = [])
         {
             if (isset($options['cartMaxItem']) && preg_match('/^\d+$/', $options['cartMaxItem'])) {
@@ -60,31 +31,16 @@
             $this->read();
         }
 
-        /**
-         * Get items in  cart.
-         *
-         * @return array
-         */
         public function getItems()
         {
             return $this->items;
         }
 
-        /**
-         * Check if the cart is empty.
-         *
-         * @return bool
-         */
         public function isEmpty()
         {
             return empty(array_filter($this->items));
         }
 
-        /**
-         * Get the total of item in cart.
-         *
-         * @return int
-         */
         public function getTotalItem()
         {
             $total = 0;
@@ -98,11 +54,6 @@
             return $total;
         }
 
-        /**
-         * Get the total of item quantity in cart.
-         *
-         * @return int
-         */
         public function getTotalQuantity()
         {
             $quantity = 0;
@@ -116,13 +67,6 @@
             return $quantity;
         }
 
-        /**
-         * Get the sum of a attribute from cart.
-         *
-         * @param string $attribute
-         *
-         * @return int
-         */
         public function getAttributeTotal($attribute = 'price')
         {
             $total = 0;
@@ -138,23 +82,12 @@
             return $total;
         }
 
-        /**
-         * Remove all items from cart.
-         */
         public function clear()
         {
             $this->items = [];
             $this->write();
         }
 
-        /**
-         * Check if a item exist in cart.
-         *
-         * @param string $id
-         * @param array  $attributes
-         *
-         * @return bool
-         */
         public function isItemExists($id, $attributes = [])
         {
             $attributes = (is_array($attributes)) ? array_filter($attributes) : [$attributes];
@@ -171,14 +104,6 @@
             return false;
         }
 
-        /**
-         * Get one item from cart
-         *
-         * @param string $id
-         * @param string $hash
-         *
-         * @return array
-         */
         public function getItem($id, $hash = null)
         {
             if($hash){
@@ -191,15 +116,6 @@
                 return reset($this->items[$id]);
         }
 
-        /**
-         * Add item to cart.
-         *
-         * @param string $id
-         * @param int    $quantity
-         * @param array  $attributes
-         *
-         * @return bool
-         */
         public function add($id, $quantity = 1, $attributes = [])
         {
             $quantity = (preg_match('/^\d+$/', $quantity)) ? $quantity : 1;
@@ -235,15 +151,6 @@
             return true;
         }
 
-        /**
-         * Update item quantity.
-         *
-         * @param string $id
-         * @param int    $quantity
-         * @param array  $attributes
-         *
-         * @return bool
-         */
         public function update($id, $quantity = 1, $attributes = [])
         {
             $quantity = (preg_match('/^\d+$/', $quantity)) ? $quantity : 1;
@@ -272,14 +179,6 @@
             return false;
         }
 
-        /**
-         * Remove item from cart.
-         *
-         * @param string $id
-         * @param array  $attributes
-         *
-         * @return bool
-         */
         public function remove($id, $attributes = [])
         {
             if (!isset($this->items[$id])) {
@@ -309,9 +208,6 @@
             return false;
         }
 
-        /**
-         * Destroy cart session.
-         */
         public function destroy()
         {
             $this->items = [];
@@ -323,17 +219,11 @@
             }
         }
 
-        /**
-         * Read items from cart session.
-         */
         private function read()
         {
             $this->items = ($this->useCookie) ? json_decode((isset($_COOKIE[$this->cartId])) ? $_COOKIE[$this->cartId] : '[]', true) : json_decode((isset($_SESSION[$this->cartId])) ? $_SESSION[$this->cartId] : '[]', true);
         }
 
-        /**
-         * Write changes into cart session.
-         */
         private function write()
         {
             if ($this->useCookie) {
