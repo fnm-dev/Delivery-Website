@@ -1,3 +1,5 @@
+<?php include_once("../partials/verificaLoginMetodos.php") ?>
+
 <!DOCTYPE html>
 <html>
 <html lang="pt-br">
