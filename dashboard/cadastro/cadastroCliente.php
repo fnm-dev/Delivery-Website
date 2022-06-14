@@ -1,3 +1,5 @@
+<?php include_once("../partials/verificaLoginMetodos.php") ?>
+
 <?php
 	$acao=$_POST['acao'];
 
